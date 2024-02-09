@@ -1,2 +1,0 @@
-# semifictional
-Github Website Demonstration
