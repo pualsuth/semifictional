@@ -1,6 +1,30 @@
+h1, h2, h3, p {
+    padding: 1em 2em 0 2em;
+}
+
+span {
+    background-image:url("../assets/images/dolphin2.gif");
+    background-position-y: 2em;
+    background-repeat: repeat-x;
+    transition: 0.4s;
+}
+
+span:hover {
+    background-position:0;
+}
+
 .container {
     width: 100%;
     height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.button-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .image-grid {
