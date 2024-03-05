@@ -17,4 +17,4 @@ loader.load( 'js/coffee_cup.gltf', function (gltf) {
     coffee.position.y = 4;
     scene.add(coffee);
 
-})
+});
