@@ -27,12 +27,29 @@ span:hover {
     align-items: center;
 }
 
-.image-grid {
+/* .image-grid {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-templates-rows: repeat(6, 1fr);
     grid-gap:0;
+} */
+
+/* img {
+    height: 100%;
+    width: 100%;
+} */
+
+.image-grid {
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+
+.image-item {
+    position: absolute;
+    height: 240px;
+    width: 240px;
 }
 
 img {

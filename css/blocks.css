@@ -1,0 +1,57 @@
+.body-container {
+    width: 1800px;
+    height: 1800px;
+}
+
+.img-container {
+    position: absolute;
+	width: 300px;
+	height: 300px;
+}
+
+.img-container > img {
+	width: auto;
+	height: 100%;
+}
+
+.video-container {
+	width: 640px;
+	height: 480px;
+}
+
+.video-container > video {
+	width: auto;
+	height: 100%;
+}
+
+.iframe-container {
+	width: 640px;
+	height: 480px;
+}
+
+.iframe-container > iframe {
+	width: 100%;
+	height: 100%;
+}
+
+.fit-contain {
+	object-fit: contain;
+}
+
+.fit-cover {
+	object-fit: cover;
+}
+
+a > span:hover {
+	font-weight: bold;
+}
+
+.invisible {
+opacity: 0;
+}
+
+#blue-square {
+    left: 500px;
+    top: 300px;
+    z-index: 2;
+}
