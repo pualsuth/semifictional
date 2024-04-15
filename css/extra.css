@@ -1,0 +1,40 @@
+.art-area {
+    background-color: #74bcd2;
+    position: relative;
+    width: 3000px;
+    height: 3000px;
+}
+
+.specific-location {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 500px;
+    top: 800px;
+
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.warm-bg {
+    width: 1000px;
+    height: 1000px;
+    background-color: rgb(237, 120, 36);
+}
+
+.cold-bg {
+    width: 1000px;
+    height: 1000px;
+    background-color: aquamarine;
+}
+
+.warm {
+    color: maroon;
+}
+
+.cold {
+    color:rgb(10, 74, 76);
+}
